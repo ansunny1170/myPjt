@@ -15,7 +15,14 @@ const routes = [
       },
       {
         path: '/QnA',
-        component: () => import('../views/QnA')
+        component: () => import('../views/QnA'),
+        children: [
+          {
+            path: '/QnA/create',
+            // component: () => import('../views/QnA/create.vue')
+            component: () => import('../views/Home.vue')
+          }
+        ]
       }
     ]
   },

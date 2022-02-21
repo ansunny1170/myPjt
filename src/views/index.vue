@@ -4,14 +4,12 @@
     <b-container fluid style="padding-left: 0px">
       <b-row>
         <!-- Side bar -->
-        <b-col cols="1" style="padding-right: 0px">
+        <b-col cols="2" style="padding-right: 0px">
           <app-Sidebar />
         </b-col>
         <!-- Body contents -->
         <b-col style="padding-left: 0px; padding-right: 0px">
-          <div class="content-body">
-            <router-view />
-          </div>
+          <router-view />
         </b-col>
       </b-row>
     </b-container>

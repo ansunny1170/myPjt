@@ -6,3 +6,28 @@
   height: 20px;
   background-color: #87CEEB;
 }
+
+.sidebar {
+  color: white;
+  background-color: #0059ab;
+}
+
+.sidebar-category-nav {
+  color: white;
+  background-color: #004c92
+}
+
+.sub-title {
+  margin-top: 15px;
+  margin-left: 15px;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.nav {
+  margin-top: 15px;
+  margin-left: 15px;
+  color: #9fb0c9;
+  font-family: 나눔;
+  font-size: 15px
+}
